@@ -1,6 +1,6 @@
 ## Usage
 
-You can to install and configure MongoDB in your computer.<br> 
+You can install and configure MongoDB in your computer.<br> 
 Or You can just create an account in [Mongo Atlas](https://account.mongodb.com/account/login) and connect to it.
 
 - Download the [Fraud data](https://www.kaggle.com/paulosabinoreis/synthetic-financial-dataset-for-fraud-detection) from kaggle (original link: [Synthetic Financial Datasets For Fraud Detection](https://www.kaggle.com/ealaxi/paysim1)).
@@ -26,6 +26,12 @@ If you are going to use MongoDB on your local computer, just delete the "client"
 # mongo = MongoDB(db_name, client)
 mongo = MongoDB(db_name)
 ```
+
+In the End the dataset will be uploaded within this structure:
+
+![img.png](img.png)
+
+Unless you change create_mongo_doc() function in main.py line 8.
 
 [<img align="right" width="60" height="60" src="https://github.com/pauloreis-ds/Paulo-Reis-Data-Science/blob/master/Paulo%20Reis/Pauloreis01.png">](https://github.com/pauloreis-ds)
 
